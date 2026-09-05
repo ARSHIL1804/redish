@@ -1,0 +1,22 @@
+# Go build output
+/redish
+/redish.exe
+*.test
+*.out
+
+# Local persistence data
+/appendonly.aof
+/appendonly.aof.rewrite
+/*.aof
+/*.aof.rewrite
+/data/
+
+# Coverage and profiling
+coverage.out
+*.prof
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
